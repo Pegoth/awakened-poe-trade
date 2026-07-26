@@ -31,8 +31,8 @@ export class AppUpdater {
       }
     })
 
-    // https://www.electron.build/configuration/nsis.html#portable
-    autoUpdater.autoDownload = !process.env.PORTABLE_EXECUTABLE_DIR
+    // Disable auto-download entirely for my fork
+    autoUpdater.autoDownload = false
 
     if (!autoUpdater.autoDownload || process.platform === 'darwin') {
       this.noAutoUpdatesReason = 'not-supported'

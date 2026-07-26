@@ -89,7 +89,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, watch, PropType, inject, shallowReactive, shallowRef } from 'vue'
+import { defineComponent, computed, PropType, inject, shallowReactive, shallowRef } from 'vue'
 import { useI18nNs } from '@/web/i18n'
 import UiErrorBox from '@/web/ui/UiErrorBox.vue'
 import { requestTradeResultList, requestResults, createTradeRequest, PricingResult, SearchResult } from './pathofexile-trade'
@@ -98,11 +98,8 @@ import { AppConfig } from '@/web/Config'
 import { PriceCheckWidget } from '@/web/overlay/interfaces'
 import { ItemFilters, StatFilter } from '../filters/interfaces'
 import { ParsedItem } from '@/parser'
-import { artificialSlowdown } from './artificial-slowdown'
 import OnlineFilter from './OnlineFilter.vue'
 import TradeLinks from './TradeLinks.vue'
-
-const slowdown = artificialSlowdown(900)
 
 const SHOW_RESULTS = 20
 const API_FETCH_LIMIT = 100
@@ -222,10 +219,6 @@ export default defineComponent({
   setup (props) {
     const widget = computed(() => AppConfig<PriceCheckWidget>('price-check')!)
 
-    watch(() => props.item, (item) => {
-      slowdown.reset(item)
-    }, { immediate: true })
-
     const { error, searchResult, groupedResults, search } = useTradeApi()
 
     const showBrowser = inject<(url: string) => void>('builtin-browser')!
@@ -242,16 +235,12 @@ export default defineComponent({
       t,
       list: searchResult,
       groupedResults: computed(() => {
-        if (!slowdown.isReady.value) {
-          return Array<undefined>(SHOW_RESULTS)
-        } else {
-          return [
-            ...groupedResults.value,
-            ...(groupedResults.value.length < SHOW_RESULTS
-              ? Array<undefined>(SHOW_RESULTS - groupedResults.value.length)
-              : [])
-          ]
-        }
+        return [
+          ...groupedResults.value,
+          ...(groupedResults.value.length < SHOW_RESULTS
+            ? Array<undefined>(SHOW_RESULTS - groupedResults.value.length)
+            : [])
+        ]
       }),
       execSearch: () => { search(props.filters, props.stats) },
       error,

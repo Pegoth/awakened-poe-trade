@@ -234,9 +234,17 @@ export default defineComponent({
 
     const poePanelWidth = computed(() => {
       if (!Host.isElectron) return 0
-      // sidebar is 986px at Wx1600H
-      const ratio = 986 / 1600
-      return size.value.height * ratio
+
+      const widgetWidth = 28.75 * AppConfig().fontSize
+      const aspectRatio = size.value.width / size.value.height
+      const maxAspectRatio = 3440 / 1440
+      const blackBarWidth = aspectRatio > maxAspectRatio
+        ? (size.value.width - size.value.height * maxAspectRatio) / 2
+        : 0
+
+      return blackBarWidth > widgetWidth
+        ? blackBarWidth - widgetWidth
+        : blackBarWidth + (size.value.height * (986 / 1600))
     })
 
     provide<WidgetManager>('wm', {

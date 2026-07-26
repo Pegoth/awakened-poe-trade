@@ -107,11 +107,8 @@ import { getDetailsId } from '../trends/getDetailsId'
 import { ItemFilters } from '../filters/interfaces'
 import { ParsedItem } from '@/parser'
 import { PriceCheckWidget } from '@/web/overlay/interfaces'
-import { artificialSlowdown } from './artificial-slowdown'
 import OnlineFilter from './OnlineFilter.vue'
 import TradeLinks from './TradeLinks.vue'
-
-const slowdown = artificialSlowdown(900)
 
 function useBulkApi () {
   type BulkSearchExtended = Record<'xchgChaos' | 'xchgStable', {
@@ -282,13 +279,9 @@ export default defineComponent({
 
     const selectedCurr = shallowRef<'xchgChaos' | 'xchgStable'>('xchgChaos')
 
-    watch(() => props.item, (item) => {
-      slowdown.reset(item)
-    }, { immediate: true })
-
     const selectedResults = computed(() => {
       const arr = Array<PricingResult | MarketRatio | undefined>(20)
-      if (!slowdown.isReady.value || !result.value) return arr
+      if (!result.value) return arr
 
       const listed = result.value[selectedCurr.value].listedLazy.value
       const ratio = marketRatio.value[selectedCurr.value]
