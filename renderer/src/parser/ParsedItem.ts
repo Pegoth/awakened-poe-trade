@@ -1,6 +1,7 @@
 import type { ModifierType, StatCalculated } from './modifiers'
 import type { ParsedModifier } from './advanced-mod-desc'
-import type { BaseType } from '@/assets/data'
+import type { ParsedStat } from './stat-translations'
+import type { BaseType, MercenaryBuild } from '@/assets/data'
 import { ItemCategory } from './meta'
 
 export enum ItemRarity {
@@ -60,6 +61,8 @@ export interface ParsedItem {
 
   gemLevel?: number
   imbuedGem?: boolean
+  mercenaryBuild?: MercenaryBuild
+  mercenarySkills?: ParsedStat[][]
   talismanTier?: number
   memoryStrands?: number
   quality?: number
