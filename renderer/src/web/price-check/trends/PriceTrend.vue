@@ -110,8 +110,7 @@ export default defineComponent({
           !item.info.craftable &&
           item.info.refName !== 'Mercenary Warrant' // need vertical space
         )
-      }),
-      slowdown
+      })
     }
   }
 })
