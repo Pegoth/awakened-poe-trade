@@ -71,7 +71,6 @@ export interface ItemFilters {
     name: string
     nameTrade: string
   }
-  scryingMapArea?: string
   itemLevel?: FilterNumeric
   stackSize?: FilterNumeric
   unidentified?: {
@@ -83,7 +82,6 @@ export interface ItemFilters {
     disabled: boolean
   }
   areaLevel?: FilterNumeric
-  heistWingsRevealed?: FilterNumeric
   sentinelCharge?: FilterNumeric
   trade: {
     offline: boolean
@@ -171,6 +169,8 @@ const _INTERNAL_TRADE_IDS = [
   'item.heist_job_deception',
   'item.heist_job_engineering',
   'item.heist_target_priceless',
+  'item.heist_wings_revealed',
+  'item.heist_wings_total',
   'item.chart_sulphur'
 ] as const
 
