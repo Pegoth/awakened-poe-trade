@@ -125,8 +125,6 @@ try {
       Invoke-NpmScript $renderer $installCommand
     }
 
-    Invoke-NpmScript $renderer @('run', 'make-index-files')
-
     if (-not $SkipLint) {
       Invoke-NpmScript $renderer @('run', 'lint')
     }
