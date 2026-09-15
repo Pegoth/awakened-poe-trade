@@ -1,54 +1,46 @@
 <template>
   <div v-if="trend" class="flex items-center pb-4" style="min-height: 3rem;">
-    <div v-if="!isValuableBasetype && !slowdown.isReady.value" class="flex flex-1 justify-center">
-      <div><i class="fas fa-dna fa-spin text-gray-600"></i></div>
-      <i18n-t keypath="trade_result.getting_price" class="pl-2">
-        <span class="text-gray-600">{{ t(':getting_price_from') }}</span>
-      </i18n-t>
-    </div>
-    <template v-else>
-      <item-quick-price class="flex-1 text-base justify-center"
-        :price="trend.price"
-        :fraction="filters.stackSize != null"
-        :item-img="item.info.icon"
-        :item-base="item.uniqueBase ?? item.info"
-      >
-        <template #item v-if="isValuableBasetype">
-          <span class="text-gray-400">{{ t(':base_item') }}</span>
-        </template>
-      </item-quick-price>
-      <div v-if="trend.change" @click="openNinja" :class="$style['trend-btn']">
-        <div class="text-center">
-          <div class="leading-tight">
-            <i v-if="trend.change.forecast === 'down'" class="fas fa-angle-double-down pr-1 text-red-600"></i>
-            <i v-if="trend.change.forecast === 'up'" class="fas fa-angle-double-up pr-1 text-green-500"></i>
-            <span v-if="trend.change.forecast === 'const'" class="pr-1 text-gray-600 font-sans leading-none">±</span>
-            <span>{{ trend.change.text }}</span>
-          </div>
-          <div class="text-xs text-gray-500 leading-none">{{ t(':graph_7d') }}</div>
-        </div>
-        <div v-if="trend.change" class="w-12 h-8">
-          <vue-apexcharts
-            type="area"
-            :options="{
-              chart: { sparkline: { enabled: true }, animations: { enabled: false } },
-              stroke: { curve: 'smooth', width: 1, colors: ['#a0aec0'] /* gray.500 */ },
-              fill: { colors: ['#4a5568'] /* gray.700 */, type: 'solid' },
-              tooltip: { enabled: false },
-              plotOptions: { area: { fillTo: 'end' } },
-              yaxis: {
-                show: false,
-                min: trend.change.graph.drawMin,
-                max: trend.change.graph.drawMax
-              }
-            }"
-            :series="[{
-              data: trend.change.graph.points
-            }]"
-          />
-        </div>
-      </div>
+    <item-quick-price class="flex-1 text-base justify-center"
+      :price="trend.price"
+      :fraction="filters.stackSize != null"
+      :item-img="item.info.icon"
+      :item-base="item.uniqueBase ?? item.info"
+    >
+    <template #item v-if="isValuableBasetype">
+        <span class="text-gray-400">{{ t(':base_item') }}</span>
     </template>
+    </item-quick-price>
+    <div v-if="trend.change" @click="openNinja" :class="$style['trend-btn']">
+    <div class="text-center">
+        <div class="leading-tight">
+        <i v-if="trend.change.forecast === 'down'" class="fas fa-angle-double-down pr-1 text-red-600"></i>
+        <i v-if="trend.change.forecast === 'up'" class="fas fa-angle-double-up pr-1 text-green-500"></i>
+        <span v-if="trend.change.forecast === 'const'" class="pr-1 text-gray-600 font-sans leading-none">±</span>
+        <span>{{ trend.change.text }}</span>
+        </div>
+        <div class="text-xs text-gray-500 leading-none">{{ t(':graph_7d') }}</div>
+    </div>
+    <div v-if="trend.change" class="w-12 h-8">
+        <vue-apexcharts
+        type="area"
+        :options="{
+            chart: { sparkline: { enabled: true }, animations: { enabled: false } },
+            stroke: { curve: 'smooth', width: 1, colors: ['#a0aec0'] /* gray.500 */ },
+            fill: { colors: ['#4a5568'] /* gray.700 */, type: 'solid' },
+            tooltip: { enabled: false },
+            plotOptions: { area: { fillTo: 'end' } },
+            yaxis: {
+            show: false,
+            min: trend.change.graph.drawMin,
+            max: trend.change.graph.drawMax
+            }
+        }"
+        :series="[{
+            data: trend.change.graph.points
+        }]"
+        />
+    </div>
+    </div>
   </div>
   <div v-else-if="showFallback" class="flex items-center pb-4" style="min-height: 3rem;">
     <item-quick-price class="flex-1 text-base justify-center"
