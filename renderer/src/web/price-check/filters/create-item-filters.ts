@@ -229,6 +229,7 @@ export function createFilters (
         item.category === ItemCategory.ClusterJewel ||
         item.category === ItemCategory.Idol ||
         item.category === ItemCategory.Graft ||
+        item.category === ItemCategory.Viscera ||
         item.category === ItemCategory.HeistBlueprint
       ) {
         disabled = true
@@ -357,6 +358,7 @@ export function createFilters (
       item.category !== ItemCategory.SanctumRelic &&
       item.category !== ItemCategory.Charm &&
       item.category !== ItemCategory.Idol &&
+      item.category !== ItemCategory.Viscera &&
       item.info.refName !== 'Expedition Logbook'
     ) {
       if (item.category === ItemCategory.ClusterJewel) {

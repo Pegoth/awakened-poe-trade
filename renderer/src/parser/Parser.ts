@@ -39,6 +39,7 @@ const parsers: Array<ParserFn | { virtual: VirtualParserFn }> = [
   { virtual: parseMapTier },
   { virtual: normalizeName },
   { virtual: findInDatabase },
+  { virtual: parseViscera },
   // -----------
   parseItemLevel,
   parseTalismanTier,
@@ -162,6 +163,17 @@ function normalizeName (item: ParserState) {
     }
   }
 
+  if (item.rarity === undefined && !item.baseType) {
+    // Viscera have no rarity line, tiered ones are named "Lesser <base>" / "Greater <base>"
+    const visceraTier = _$.VISCERA_TIER.exec(item.name)
+    if (
+      visceraTier &&
+      ITEM_BY_TRANSLATED('ITEM', visceraTier[1])?.[0].craftable?.category === ItemCategory.Viscera
+    ) {
+      item.name = visceraTier[1]
+    }
+  }
+
   if (item.category === ItemCategory.MetamorphSample) {
     if (_$.METAMORPH_BRAIN.test(item.name)) {
       item.name = 'Metamorph Brain'
@@ -215,6 +227,14 @@ function findInDatabase (item: ParserState) {
       item.category = ITEM_BY_REF('ITEM',
         item.info.unique.base)![0].craftable!.category
     }
+  }
+}
+
+function parseViscera (item: ParserState) {
+  // Viscera don't have a rarity line, but are Normal on trade site
+  // and their (implicit) modifiers should be parsed
+  if (item.category === ItemCategory.Viscera && item.rarity === undefined) {
+    item.rarity = ItemRarity.Normal
   }
 }
 
