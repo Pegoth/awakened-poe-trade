@@ -5778,92 +5778,92 @@
 {"ref":"Has no Red Sockets","better":1,"matchers":[{"string":"빨간 홈 없음"}],"trade":{"ids":{"enchant":["enchant.stat_320043039"]}}}
 {"ref":"Has no Sockets","better":1,"matchers":[{"string":"홈 없음"}],"trade":{"ids":{"explicit":["explicit.stat_1493091477"]}}}
 {"ref":"Has Redeemer Influence","better":1,"matchers":[{"string":"대속자 영향력이 부여되어 있습니다 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_has_redeemer_influence"]}}}
-{"ref":"Has Room: Antechamber","better":1,"matchers":[{"string":"다음의 방 보유: 대기실 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_antechamber"]}}}
-{"ref":"Has Room: Apex of Ascension (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 승천의 정점 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_3"]}}}
-{"ref":"Has Room: Apex of Atzoatl","better":1,"matchers":[{"string":"다음의 방 보유: 앗조아틀의 정점 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_apex"]}}}
-{"ref":"Has Room: Arena of Valour (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 용맹의 투기장 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_2"]}}}
-{"ref":"Has Room: Armourer's Workshop (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 방어구 장인의 작업장 ( 1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_1"]}}}
-{"ref":"Has Room: Armoury (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 갑주 창고 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_2"]}}}
-{"ref":"Has Room: Atlas of Worlds (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 아틀라스의 세계 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_3"]}}}
-{"ref":"Has Room: Automaton Lab (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 오토마톤 제조실 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_2"]}}}
-{"ref":"Has Room: Banquet Hall","better":1,"matchers":[{"string":"다음의 방 보유: 연회장 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_banquet_hall"]}}}
-{"ref":"Has Room: Barracks (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 주둔지 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_2"]}}}
-{"ref":"Has Room: Breach Containment Chamber (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 균열 봉쇄 시설 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_2"]}}}
-{"ref":"Has Room: Catalyst of Corruption (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 타락의 기폭제 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_2"]}}}
-{"ref":"Has Room: Cellar","better":1,"matchers":[{"string":"다음의 방 보유: 저장실 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cellar"]}}}
-{"ref":"Has Room: Chamber of Iron (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 방어구의 방 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_3"]}}}
-{"ref":"Has Room: Chasm","better":1,"matchers":[{"string":"다음의 방 보유: 절벽길 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chasm_room"]}}}
-{"ref":"Has Room: Cloister","better":1,"matchers":[{"string":"다음의 방 보유: 회랑 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cloister"]}}}
-{"ref":"Has Room: Conduit of Lightning (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 번개의 도관 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_3"]}}}
-{"ref":"Has Room: Corruption Chamber (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 타락의 방 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_1"]}}}
-{"ref":"Has Room: Court of Sealed Death (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 봉인된 죽음의 법정 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_3"]}}}
-{"ref":"Has Room: Crucible of Flame (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 화염의 용광로 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_3"]}}}
-{"ref":"Has Room: Cultivar Chamber (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 컬티바의 방 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_2"]}}}
-{"ref":"Has Room: Defense Research Lab (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 방어물 연구소 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_3"]}}}
-{"ref":"Has Room: Demolition Lab (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 폭탄 제조실 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_2"]}}}
-{"ref":"Has Room: Department of Thaumaturgy (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 마석학부 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_2"]}}}
-{"ref":"Has Room: Doryani's Institute (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 도리아니의 학회 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_3"]}}}
-{"ref":"Has Room: Engineering Department (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 공학부 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_2"]}}}
-{"ref":"Has Room: Explosives Room (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 폭발물 저장실 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_1"]}}}
-{"ref":"Has Room: Factory (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 공장 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_3"]}}}
-{"ref":"Has Room: Flame Workshop (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 화염 작업장 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_1"]}}}
-{"ref":"Has Room: Gemcutter's Workshop (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 세공사의 작업장 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_1"]}}}
-{"ref":"Has Room: Glittering Halls (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 번쩍이는 복도 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_3"]}}}
-{"ref":"Has Room: Guardhouse (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 위병소 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_1"]}}}
-{"ref":"Has Room: Hall of Champions (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 용사의 전당 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_3"]}}}
-{"ref":"Has Room: Hall of Heroes (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 영웅의 전당 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_2"]}}}
-{"ref":"Has Room: Hall of Legends (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 전설의 전당 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_3"]}}}
-{"ref":"Has Room: Hall of Locks (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 자물쇠의 전당 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_2"]}}}
-{"ref":"Has Room: Hall of Lords (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 군주의 전당 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_2"]}}}
-{"ref":"Has Room: Hall of Mettle (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 패기의 전당 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_1"]}}}
-{"ref":"Has Room: Hall of Offerings (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 공물의 전당 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_2"]}}}
-{"ref":"Has Room: Hall of War (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 전쟁의 전당 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_3"]}}}
-{"ref":"Has Room: Halls","better":1,"matchers":[{"string":"다음의 방 보유: 복도 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_halls"]}}}
-{"ref":"Has Room: Hatchery (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 부화장 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_1"]}}}
-{"ref":"Has Room: House of the Others (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 다른 존재의 보금자리 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_3"]}}}
-{"ref":"Has Room: Hurricane Engine (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 폭풍 장치 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_2"]}}}
-{"ref":"Has Room: Hybridisation Chamber (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 잡종화의 방 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_3"]}}}
-{"ref":"Has Room: Jeweller's Workshop (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 보석 상인의 작업장 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_1"]}}}
-{"ref":"Has Room: Jewellery Forge (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 장신구 제련소 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_2"]}}}
-{"ref":"Has Room: Lightning Workshop (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 번개 작업장 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_1"]}}}
-{"ref":"Has Room: Locus of Corruption (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 타락의 현장 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_3"]}}}
-{"ref":"Has Room: Museum of Artefacts (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 유물 박물관 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_3"]}}}
-{"ref":"Has Room: Office of Cartography (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 지도 제작소 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_2"]}}}
-{"ref":"Has Room: Omnitect Forge (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 종합체 제련소 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_2"]}}}
-{"ref":"Has Room: Omnitect Reactor Plant (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 종합체 원전 시설 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_2"]}}}
-{"ref":"Has Room: Passageways","better":1,"matchers":[{"string":"다음의 방 보유: 통로 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_passageways"]}}}
-{"ref":"Has Room: Pits","better":1,"matchers":[{"string":"다음의 방 보유: 구덩이 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_the_pits"]}}}
-{"ref":"Has Room: Poison Garden (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 독초 정원 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_1"]}}}
-{"ref":"Has Room: Pools of Restoration (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 회복의 웅덩이 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_1"]}}}
-{"ref":"Has Room: Royal Meeting Room (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 왕실 회의실 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_1"]}}}
-{"ref":"Has Room: Sacrificial Chamber (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 희생의 방 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_1"]}}}
-{"ref":"Has Room: Sadist's Den (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 가학자의 굴 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_3"]}}}
-{"ref":"Has Room: Sanctum of Immortality (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 불멸의 지성소 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_3"]}}}
-{"ref":"Has Room: Sanctum of Unity (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 단결의 지성소 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_2"]}}}
-{"ref":"Has Room: Sanctum of Vitality (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 활력의 지성소 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_2"]}}}
-{"ref":"Has Room: Shrine of Empowerment (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 강화의 성소 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_1"]}}}
-{"ref":"Has Room: Shrine of Unmaking (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 파괴의 성소 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_3"]}}}
-{"ref":"Has Room: Sparring Room (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 격투장 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_1"]}}}
-{"ref":"Has Room: Splinter Research Lab (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 파편 연구소 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_1"]}}}
-{"ref":"Has Room: Storage Room (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 저장고 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_1"]}}}
-{"ref":"Has Room: Storm of Corruption (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 타락의 태풍 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_3"]}}}
-{"ref":"Has Room: Strongbox Chamber (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 금고의 방 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_1"]}}}
-{"ref":"Has Room: Surveyor's Study (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 측량사의 서재 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_1"]}}}
-{"ref":"Has Room: Tempest Generator (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 폭풍 제조기 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_1"]}}}
-{"ref":"Has Room: Temple Defense Workshop (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 사원 방어물 작업장 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_2"]}}}
-{"ref":"Has Room: Temple Nexus (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 사원의 연결부 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_3"]}}}
-{"ref":"Has Room: Throne of Atziri (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 앗지리의 왕좌 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_3"]}}}
-{"ref":"Has Room: Tombs","better":1,"matchers":[{"string":"다음의 방 보유: 무덤 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_tombs"]}}}
-{"ref":"Has Room: Torment Cells (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 고문용 감방 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_1"]}}}
-{"ref":"Has Room: Torture Cages (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 고문용 창살 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_2"]}}}
-{"ref":"Has Room: Toxic Grove (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 독성 수목원 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_3"]}}}
-{"ref":"Has Room: Trap Workshop (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 덫 작업장 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_1"]}}}
-{"ref":"Has Room: Treasury (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 보물 창고 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_2"]}}}
-{"ref":"Has Room: Tunnels","better":1,"matchers":[{"string":"다음의 방 보유: 터널 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_tunnels"]}}}
-{"ref":"Has Room: Vault (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 금고실 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_1"]}}}
-{"ref":"Has Room: Warehouses (Tier 2)","better":1,"matchers":[{"string":"다음의 방 보유: 창고 (2등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_2"]}}}
-{"ref":"Has Room: Wealth of the Vaal (Tier 3)","better":1,"matchers":[{"string":"다음의 방 보유: 바알의 재물 (3등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_3"]}}}
-{"ref":"Has Room: Workshop (Tier 1)","better":1,"matchers":[{"string":"다음의 방 보유: 작업장 (1등급) "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_1"]}}}
+{"ref":"Has Room: Antechamber","better":0,"matchers":[{"string":"대기실"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_antechamber"]},"option":true}}
+{"ref":"Has Room: Apex of Ascension (Tier 3)","better":0,"matchers":[{"string":"승천의 정점 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_3"]},"option":true}}
+{"ref":"Has Room: Apex of Atzoatl","better":0,"matchers":[{"string":"앗조아틀의 정점"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_apex"]},"option":true}}
+{"ref":"Has Room: Arena of Valour (Tier 2)","better":0,"matchers":[{"string":"용맹의 투기장 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_2"]},"option":true}}
+{"ref":"Has Room: Armourer's Workshop (Tier 1)","better":0,"matchers":[{"string":"방어구 장인의 작업장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_1"]},"option":true}}
+{"ref":"Has Room: Armoury (Tier 2)","better":0,"matchers":[{"string":"갑주 창고 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_2"]},"option":true}}
+{"ref":"Has Room: Atlas of Worlds (Tier 3)","better":0,"matchers":[{"string":"아틀라스의 세계 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_3"]},"option":true}}
+{"ref":"Has Room: Automaton Lab (Tier 2)","better":0,"matchers":[{"string":"오토마톤 제조실 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_2"]},"option":true}}
+{"ref":"Has Room: Banquet Hall","better":0,"matchers":[{"string":"연회장"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_banquet_hall"]},"option":true}}
+{"ref":"Has Room: Barracks (Tier 2)","better":0,"matchers":[{"string":"주둔지 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_2"]},"option":true}}
+{"ref":"Has Room: Breach Containment Chamber (Tier 2)","better":0,"matchers":[{"string":"균열 봉쇄 시설 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_2"]},"option":true}}
+{"ref":"Has Room: Catalyst of Corruption (Tier 2)","better":0,"matchers":[{"string":"타락의 기폭제 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_2"]},"option":true}}
+{"ref":"Has Room: Cellar","better":0,"matchers":[{"string":"저장실"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cellar"]},"option":true}}
+{"ref":"Has Room: Chamber of Iron (Tier 3)","better":0,"matchers":[{"string":"방어구의 방 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_3"]},"option":true}}
+{"ref":"Has Room: Chasm","better":0,"matchers":[{"string":"절벽길"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chasm_room"]},"option":true}}
+{"ref":"Has Room: Cloister","better":0,"matchers":[{"string":"회랑"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cloister"]},"option":true}}
+{"ref":"Has Room: Conduit of Lightning (Tier 3)","better":0,"matchers":[{"string":"번개의 도관 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_3"]},"option":true}}
+{"ref":"Has Room: Corruption Chamber (Tier 1)","better":0,"matchers":[{"string":"타락의 방 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_1"]},"option":true}}
+{"ref":"Has Room: Court of Sealed Death (Tier 3)","better":0,"matchers":[{"string":"봉인된 죽음의 법정 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_3"]},"option":true}}
+{"ref":"Has Room: Crucible of Flame (Tier 3)","better":0,"matchers":[{"string":"화염의 용광로 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_3"]},"option":true}}
+{"ref":"Has Room: Cultivar Chamber (Tier 2)","better":0,"matchers":[{"string":"컬티바의 방 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_2"]},"option":true}}
+{"ref":"Has Room: Defense Research Lab (Tier 3)","better":0,"matchers":[{"string":"방어물 연구소 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_3"]},"option":true}}
+{"ref":"Has Room: Demolition Lab (Tier 2)","better":0,"matchers":[{"string":"폭탄 제조실 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_2"]},"option":true}}
+{"ref":"Has Room: Department of Thaumaturgy (Tier 2)","better":0,"matchers":[{"string":"마법부 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_2"]},"option":true}}
+{"ref":"Has Room: Doryani's Institute (Tier 3)","better":0,"matchers":[{"string":"도리아니의 학회 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_3"]},"option":true}}
+{"ref":"Has Room: Engineering Department (Tier 2)","better":0,"matchers":[{"string":"공학부 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_2"]},"option":true}}
+{"ref":"Has Room: Explosives Room (Tier 1)","better":0,"matchers":[{"string":"폭발물 저장실 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_1"]},"option":true}}
+{"ref":"Has Room: Factory (Tier 3)","better":0,"matchers":[{"string":"공장 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_3"]},"option":true}}
+{"ref":"Has Room: Flame Workshop (Tier 1)","better":0,"matchers":[{"string":"화염 작업장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_1"]},"option":true}}
+{"ref":"Has Room: Gemcutter's Workshop (Tier 1)","better":0,"matchers":[{"string":"세공사의 작업장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_1"]},"option":true}}
+{"ref":"Has Room: Glittering Halls (Tier 3)","better":0,"matchers":[{"string":"번쩍이는 복도 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_3"]},"option":true}}
+{"ref":"Has Room: Guardhouse (Tier 1)","better":0,"matchers":[{"string":"위병소 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_1"]},"option":true}}
+{"ref":"Has Room: Hall of Champions (Tier 3)","better":0,"matchers":[{"string":"용사의 전당 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_3"]},"option":true}}
+{"ref":"Has Room: Hall of Heroes (Tier 2)","better":0,"matchers":[{"string":"영웅의 전당 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_2"]},"option":true}}
+{"ref":"Has Room: Hall of Legends (Tier 3)","better":0,"matchers":[{"string":"전설의 전당 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_3"]},"option":true}}
+{"ref":"Has Room: Hall of Locks (Tier 2)","better":0,"matchers":[{"string":"자물쇠의 전당 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_2"]},"option":true}}
+{"ref":"Has Room: Hall of Lords (Tier 2)","better":0,"matchers":[{"string":"군주의 전당 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_2"]},"option":true}}
+{"ref":"Has Room: Hall of Mettle (Tier 1)","better":0,"matchers":[{"string":"패기의 전당 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_1"]},"option":true}}
+{"ref":"Has Room: Hall of Offerings (Tier 2)","better":0,"matchers":[{"string":"공물의 전당 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_2"]},"option":true}}
+{"ref":"Has Room: Hall of War (Tier 3)","better":0,"matchers":[{"string":"전쟁의 전당 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_3"]},"option":true}}
+{"ref":"Has Room: Halls","better":0,"matchers":[{"string":"복도"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_halls"]},"option":true}}
+{"ref":"Has Room: Hatchery (Tier 1)","better":0,"matchers":[{"string":"부화장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_1"]},"option":true}}
+{"ref":"Has Room: House of the Others (Tier 3)","better":0,"matchers":[{"string":"다른 존재의 보금자리 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_3"]},"option":true}}
+{"ref":"Has Room: Hurricane Engine (Tier 2)","better":0,"matchers":[{"string":"폭풍 장치 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_2"]},"option":true}}
+{"ref":"Has Room: Hybridisation Chamber (Tier 3)","better":0,"matchers":[{"string":"잡종화의 방 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_3"]},"option":true}}
+{"ref":"Has Room: Jeweller's Workshop (Tier 1)","better":0,"matchers":[{"string":"보석 상인의 작업장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_1"]},"option":true}}
+{"ref":"Has Room: Jewellery Forge (Tier 2)","better":0,"matchers":[{"string":"장신구 제련소 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_2"]},"option":true}}
+{"ref":"Has Room: Lightning Workshop (Tier 1)","better":0,"matchers":[{"string":"번개 작업장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_1"]},"option":true}}
+{"ref":"Has Room: Locus of Corruption (Tier 3)","better":0,"matchers":[{"string":"타락의 현장 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_3"]},"option":true}}
+{"ref":"Has Room: Museum of Artefacts (Tier 3)","better":0,"matchers":[{"string":"유물 박물관 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_3"]},"option":true}}
+{"ref":"Has Room: Office of Cartography (Tier 2)","better":0,"matchers":[{"string":"지도 제작소 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_2"]},"option":true}}
+{"ref":"Has Room: Omnitect Forge (Tier 2)","better":0,"matchers":[{"string":"종합체 제련소 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_2"]},"option":true}}
+{"ref":"Has Room: Omnitect Reactor Plant (Tier 2)","better":0,"matchers":[{"string":"종합체 원전 시설 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_2"]},"option":true}}
+{"ref":"Has Room: Passageways","better":0,"matchers":[{"string":"통로"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_passageways"]},"option":true}}
+{"ref":"Has Room: Pits","better":0,"matchers":[{"string":"구덩이"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_the_pits"]},"option":true}}
+{"ref":"Has Room: Poison Garden (Tier 1)","better":0,"matchers":[{"string":"독초 정원 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_1"]},"option":true}}
+{"ref":"Has Room: Pools of Restoration (Tier 1)","better":0,"matchers":[{"string":"회복의 웅덩이 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_1"]},"option":true}}
+{"ref":"Has Room: Royal Meeting Room (Tier 1)","better":0,"matchers":[{"string":"왕실 회의실 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_1"]},"option":true}}
+{"ref":"Has Room: Sacrificial Chamber (Tier 1)","better":0,"matchers":[{"string":"희생의 방 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_1"]},"option":true}}
+{"ref":"Has Room: Sadist's Den (Tier 3)","better":0,"matchers":[{"string":"가학자의 굴 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_3"]},"option":true}}
+{"ref":"Has Room: Sanctum of Immortality (Tier 3)","better":0,"matchers":[{"string":"불멸의 지성소 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_3"]},"option":true}}
+{"ref":"Has Room: Sanctum of Unity (Tier 2)","better":0,"matchers":[{"string":"단결의 지성소 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_2"]},"option":true}}
+{"ref":"Has Room: Sanctum of Vitality (Tier 2)","better":0,"matchers":[{"string":"활력의 지성소 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_2"]},"option":true}}
+{"ref":"Has Room: Shrine of Empowerment (Tier 1)","better":0,"matchers":[{"string":"강화의 성소 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_1"]},"option":true}}
+{"ref":"Has Room: Shrine of Unmaking (Tier 3)","better":0,"matchers":[{"string":"파괴의 성소 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_3"]},"option":true}}
+{"ref":"Has Room: Sparring Room (Tier 1)","better":0,"matchers":[{"string":"격투장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_1"]},"option":true}}
+{"ref":"Has Room: Splinter Research Lab (Tier 1)","better":0,"matchers":[{"string":"파편 연구소 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_1"]},"option":true}}
+{"ref":"Has Room: Storage Room (Tier 1)","better":0,"matchers":[{"string":"저장고 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_1"]},"option":true}}
+{"ref":"Has Room: Storm of Corruption (Tier 3)","better":0,"matchers":[{"string":"타락의 태풍 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_3"]},"option":true}}
+{"ref":"Has Room: Strongbox Chamber (Tier 1)","better":0,"matchers":[{"string":"금고의 방 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_1"]},"option":true}}
+{"ref":"Has Room: Surveyor's Study (Tier 1)","better":0,"matchers":[{"string":"측량사의 조사 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_1"]},"option":true}}
+{"ref":"Has Room: Tempest Generator (Tier 1)","better":0,"matchers":[{"string":"폭풍 제조기 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_1"]},"option":true}}
+{"ref":"Has Room: Temple Defense Workshop (Tier 2)","better":0,"matchers":[{"string":"사원 방어물 작업장 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_2"]},"option":true}}
+{"ref":"Has Room: Temple Nexus (Tier 3)","better":0,"matchers":[{"string":"사원의 연결부 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_3"]},"option":true}}
+{"ref":"Has Room: Throne of Atziri (Tier 3)","better":0,"matchers":[{"string":"앗지리의 왕좌 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_3"]},"option":true}}
+{"ref":"Has Room: Tombs","better":0,"matchers":[{"string":"무덤"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_tombs"]},"option":true}}
+{"ref":"Has Room: Torment Cells (Tier 1)","better":0,"matchers":[{"string":"고문용 감방 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_1"]},"option":true}}
+{"ref":"Has Room: Torture Cages (Tier 2)","better":0,"matchers":[{"string":"고문용 창살 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_2"]},"option":true}}
+{"ref":"Has Room: Toxic Grove (Tier 3)","better":0,"matchers":[{"string":"독성 수목원 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_3"]},"option":true}}
+{"ref":"Has Room: Trap Workshop (Tier 1)","better":0,"matchers":[{"string":"덫 작업장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_1"]},"option":true}}
+{"ref":"Has Room: Treasury (Tier 2)","better":0,"matchers":[{"string":"보물 창고 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_2"]},"option":true}}
+{"ref":"Has Room: Tunnels","better":0,"matchers":[{"string":"터널"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_tunnels"]},"option":true}}
+{"ref":"Has Room: Vault (Tier 1)","better":0,"matchers":[{"string":"금고실 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_1"]},"option":true}}
+{"ref":"Has Room: Warehouses (Tier 2)","better":0,"matchers":[{"string":"창고 (2등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_2"]},"option":true}}
+{"ref":"Has Room: Wealth of the Vaal (Tier 3)","better":0,"matchers":[{"string":"바알의 재물 (3등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_3"]},"option":true}}
+{"ref":"Has Room: Workshop (Tier 1)","better":0,"matchers":[{"string":"작업장 (1등급)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_1"]},"option":true}}
 {"ref":"Has Shaper Influence","better":1,"matchers":[{"string":"쉐이퍼 영향력이 부여되어 있습니다 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_has_shaper_influence"]}}}
 {"ref":"Has Warlord Influence","better":1,"matchers":[{"string":"전쟁군주 영향력이 부여되어 있습니다 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_has_warlord_influence"]}}}
 {"ref":"Haste","better":0,"mercenary":{"icon":"https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvYXVyYXNwZWVkIn1d/4376406372/auraspeed.png"},"matchers":[{"string":"가속"}],"trade":{"ids":{"pseudo":["mercenary.skill_52155"]}}}

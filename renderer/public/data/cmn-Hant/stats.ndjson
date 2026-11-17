@@ -5789,92 +5789,92 @@
 {"ref":"Has no Red Sockets","better":1,"matchers":[{"string":"沒有紅色插槽"}],"trade":{"ids":{"enchant":["enchant.stat_320043039"]}}}
 {"ref":"Has no Sockets","better":1,"matchers":[{"string":"沒有插槽"}],"trade":{"ids":{"explicit":["explicit.stat_1493091477"]}}}
 {"ref":"Has Redeemer Influence","better":1,"matchers":[{"string":"有救贖者勢力 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_has_redeemer_influence"]}}}
-{"ref":"Has Room: Antechamber","better":1,"matchers":[{"string":"有房間：神殿前院 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_antechamber"]}}}
-{"ref":"Has Room: Apex of Ascension (Tier 3)","better":1,"matchers":[{"string":"有房間：祭祀之巔（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_3"]}}}
-{"ref":"Has Room: Apex of Atzoatl","better":1,"matchers":[{"string":"有房間：阿茲瓦特之巔 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_apex"]}}}
-{"ref":"Has Room: Arena of Valour (Tier 2)","better":1,"matchers":[{"string":"有房間：傳說對決（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_2"]}}}
-{"ref":"Has Room: Armourer's Workshop (Tier 1)","better":1,"matchers":[{"string":"有房間：裝甲磨坊（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_1"]}}}
-{"ref":"Has Room: Armoury (Tier 2)","better":1,"matchers":[{"string":"有房間：軍械庫（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_2"]}}}
-{"ref":"Has Room: Atlas of Worlds (Tier 3)","better":1,"matchers":[{"string":"有房間：異界輿圖（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_3"]}}}
-{"ref":"Has Room: Automaton Lab (Tier 2)","better":1,"matchers":[{"string":"有房間：自運研究所（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_2"]}}}
-{"ref":"Has Room: Banquet Hall","better":1,"matchers":[{"string":"有房間：神殿宴會場 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_banquet_hall"]}}}
-{"ref":"Has Room: Barracks (Tier 2)","better":1,"matchers":[{"string":"有房間：軍隊憩所（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_2"]}}}
-{"ref":"Has Room: Breach Containment Chamber (Tier 2)","better":1,"matchers":[{"string":"有房間：裂痕異域室（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_2"]}}}
-{"ref":"Has Room: Catalyst of Corruption (Tier 2)","better":1,"matchers":[{"string":"有房間：腐敗孳生室（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_2"]}}}
-{"ref":"Has Room: Cellar","better":1,"matchers":[{"string":"有房間：神殿地窖 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cellar"]}}}
-{"ref":"Has Room: Chamber of Iron (Tier 3)","better":1,"matchers":[{"string":"有房間：鋼鍛之室（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_3"]}}}
-{"ref":"Has Room: Chasm","better":1,"matchers":[{"string":"有房間：神殿裂口 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chasm_room"]}}}
-{"ref":"Has Room: Cloister","better":1,"matchers":[{"string":"有房間：神殿廟 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cloister"]}}}
-{"ref":"Has Room: Conduit of Lightning (Tier 3)","better":1,"matchers":[{"string":"有房間：雷霆導管（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_3"]}}}
-{"ref":"Has Room: Corruption Chamber (Tier 1)","better":1,"matchers":[{"string":"有房間：腐敗之室（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_1"]}}}
-{"ref":"Has Room: Court of Sealed Death (Tier 3)","better":1,"matchers":[{"string":"有房間：封亡院庭（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_3"]}}}
-{"ref":"Has Room: Crucible of Flame (Tier 3)","better":1,"matchers":[{"string":"有房間：烈焰熔爐（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_3"]}}}
-{"ref":"Has Room: Cultivar Chamber (Tier 2)","better":1,"matchers":[{"string":"有房間：培育秘室（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_2"]}}}
-{"ref":"Has Room: Defense Research Lab (Tier 3)","better":1,"matchers":[{"string":"有房間：禦防研究所（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_3"]}}}
-{"ref":"Has Room: Demolition Lab (Tier 2)","better":1,"matchers":[{"string":"有房間：拆除庫（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_2"]}}}
-{"ref":"Has Room: Department of Thaumaturgy (Tier 2)","better":1,"matchers":[{"string":"有房間：魔法部（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_2"]}}}
-{"ref":"Has Room: Doryani's Institute (Tier 3)","better":1,"matchers":[{"string":"有房間：多里亞尼之院（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_3"]}}}
-{"ref":"Has Room: Engineering Department (Tier 2)","better":1,"matchers":[{"string":"有房間：工程部（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_2"]}}}
-{"ref":"Has Room: Explosives Room (Tier 1)","better":1,"matchers":[{"string":"有房間：彈藥庫（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_1"]}}}
-{"ref":"Has Room: Factory (Tier 3)","better":1,"matchers":[{"string":"有房間：瓦爾工廠（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_3"]}}}
-{"ref":"Has Room: Flame Workshop (Tier 1)","better":1,"matchers":[{"string":"有房間：獄炎磨坊（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_1"]}}}
-{"ref":"Has Room: Gemcutter's Workshop (Tier 1)","better":1,"matchers":[{"string":"有房間：刻石磨坊（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_1"]}}}
-{"ref":"Has Room: Glittering Halls (Tier 3)","better":1,"matchers":[{"string":"有房間：閃耀聖殿（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_3"]}}}
-{"ref":"Has Room: Guardhouse (Tier 1)","better":1,"matchers":[{"string":"有房間：衛兵房（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_1"]}}}
-{"ref":"Has Room: Hall of Champions (Tier 3)","better":1,"matchers":[{"string":"有房間：冠軍聖殿（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_3"]}}}
-{"ref":"Has Room: Hall of Heroes (Tier 2)","better":1,"matchers":[{"string":"有房間：英雄之殿（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_2"]}}}
-{"ref":"Has Room: Hall of Legends (Tier 3)","better":1,"matchers":[{"string":"有房間：神話之殿（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_3"]}}}
-{"ref":"Has Room: Hall of Locks (Tier 2)","better":1,"matchers":[{"string":"有房間：千鎖殿堂（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_2"]}}}
-{"ref":"Has Room: Hall of Lords (Tier 2)","better":1,"matchers":[{"string":"有房間：權貴殿堂（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_2"]}}}
-{"ref":"Has Room: Hall of Mettle (Tier 1)","better":1,"matchers":[{"string":"有房間：勇氣之殿（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_1"]}}}
-{"ref":"Has Room: Hall of Offerings (Tier 2)","better":1,"matchers":[{"string":"有房間：獻祭殿堂（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_2"]}}}
-{"ref":"Has Room: Hall of War (Tier 3)","better":1,"matchers":[{"string":"有房間：戰爭聖殿（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_3"]}}}
-{"ref":"Has Room: Halls","better":1,"matchers":[{"string":"有房間：神殿殿堂 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_halls"]}}}
-{"ref":"Has Room: Hatchery (Tier 1)","better":1,"matchers":[{"string":"有房間：孵化室（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_1"]}}}
-{"ref":"Has Room: House of the Others (Tier 3)","better":1,"matchers":[{"string":"有房間：異者居所（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_3"]}}}
-{"ref":"Has Room: Hurricane Engine (Tier 2)","better":1,"matchers":[{"string":"有房間：颶風引擎室（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_2"]}}}
-{"ref":"Has Room: Hybridisation Chamber (Tier 3)","better":1,"matchers":[{"string":"有房間：異種之域（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_3"]}}}
-{"ref":"Has Room: Jeweller's Workshop (Tier 1)","better":1,"matchers":[{"string":"有房間：寶匠磨坊（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_1"]}}}
-{"ref":"Has Room: Jewellery Forge (Tier 2)","better":1,"matchers":[{"string":"有房間：珠寶冶煉室（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_2"]}}}
-{"ref":"Has Room: Lightning Workshop (Tier 1)","better":1,"matchers":[{"string":"有房間：風雷磨坊（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_1"]}}}
-{"ref":"Has Room: Locus of Corruption (Tier 3)","better":1,"matchers":[{"string":"有房間：腐敗之地（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_3"]}}}
-{"ref":"Has Room: Museum of Artefacts (Tier 3)","better":1,"matchers":[{"string":"有房間：文物展館（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_3"]}}}
-{"ref":"Has Room: Office of Cartography (Tier 2)","better":1,"matchers":[{"string":"有房間：製圖研製室（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_2"]}}}
-{"ref":"Has Room: Omnitect Forge (Tier 2)","better":1,"matchers":[{"string":"有房間：全能冶煉室（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_2"]}}}
-{"ref":"Has Room: Omnitect Reactor Plant (Tier 2)","better":1,"matchers":[{"string":"有房間：全能反應廠（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_2"]}}}
-{"ref":"Has Room: Passageways","better":1,"matchers":[{"string":"有房間：神殿通道 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_passageways"]}}}
-{"ref":"Has Room: Pits","better":1,"matchers":[{"string":"有房間：神殿舊窖 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_the_pits"]}}}
-{"ref":"Has Room: Poison Garden (Tier 1)","better":1,"matchers":[{"string":"有房間：監獄花園（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_1"]}}}
-{"ref":"Has Room: Pools of Restoration (Tier 1)","better":1,"matchers":[{"string":"有房間：治癒之泉（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_1"]}}}
-{"ref":"Has Room: Royal Meeting Room (Tier 1)","better":1,"matchers":[{"string":"有房間：王室宴客室（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_1"]}}}
-{"ref":"Has Room: Sacrificial Chamber (Tier 1)","better":1,"matchers":[{"string":"有房間：獻祭之室（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_1"]}}}
-{"ref":"Has Room: Sadist's Den (Tier 3)","better":1,"matchers":[{"string":"有房間：虐狂之巢（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_3"]}}}
-{"ref":"Has Room: Sanctum of Immortality (Tier 3)","better":1,"matchers":[{"string":"有房間：不朽聖殿（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_3"]}}}
-{"ref":"Has Room: Sanctum of Unity (Tier 2)","better":1,"matchers":[{"string":"有房間：統領聖殿（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_2"]}}}
-{"ref":"Has Room: Sanctum of Vitality (Tier 2)","better":1,"matchers":[{"string":"有房間：活力聖殿（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_2"]}}}
-{"ref":"Has Room: Shrine of Empowerment (Tier 1)","better":1,"matchers":[{"string":"有房間：恩賜神殿（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_1"]}}}
-{"ref":"Has Room: Shrine of Unmaking (Tier 3)","better":1,"matchers":[{"string":"有房間：毀滅神殿（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_3"]}}}
-{"ref":"Has Room: Sparring Room (Tier 1)","better":1,"matchers":[{"string":"有房間：格鬥場（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_1"]}}}
-{"ref":"Has Room: Splinter Research Lab (Tier 1)","better":1,"matchers":[{"string":"有房間：裂界研究室（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_1"]}}}
-{"ref":"Has Room: Storage Room (Tier 1)","better":1,"matchers":[{"string":"有房間：儲物室（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_1"]}}}
-{"ref":"Has Room: Storm of Corruption (Tier 3)","better":1,"matchers":[{"string":"有房間：腐敗風暴（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_3"]}}}
-{"ref":"Has Room: Strongbox Chamber (Tier 1)","better":1,"matchers":[{"string":"有房間：寶箱之殿（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_1"]}}}
-{"ref":"Has Room: Surveyor's Study (Tier 1)","better":1,"matchers":[{"string":"有房間：研究書房（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_1"]}}}
-{"ref":"Has Room: Tempest Generator (Tier 1)","better":1,"matchers":[{"string":"有房間：暴雷發電室（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_1"]}}}
-{"ref":"Has Room: Temple Defense Workshop (Tier 2)","better":1,"matchers":[{"string":"有房間：神殿禦防室（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_2"]}}}
-{"ref":"Has Room: Temple Nexus (Tier 3)","better":1,"matchers":[{"string":"有房間：死神靈殿（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_3"]}}}
-{"ref":"Has Room: Throne of Atziri (Tier 3)","better":1,"matchers":[{"string":"有房間：阿茲里宴殿（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_3"]}}}
-{"ref":"Has Room: Tombs","better":1,"matchers":[{"string":"有房間：神殿陵寢 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_tombs"]}}}
-{"ref":"Has Room: Torment Cells (Tier 1)","better":1,"matchers":[{"string":"有房間：磨難牢房（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_1"]}}}
-{"ref":"Has Room: Torture Cages (Tier 2)","better":1,"matchers":[{"string":"有房間：拷刑大牢（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_2"]}}}
-{"ref":"Has Room: Toxic Grove (Tier 3)","better":1,"matchers":[{"string":"有房間：劇毒果園（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_3"]}}}
-{"ref":"Has Room: Trap Workshop (Tier 1)","better":1,"matchers":[{"string":"有房間：陷阱磨坊（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_1"]}}}
-{"ref":"Has Room: Treasury (Tier 2)","better":1,"matchers":[{"string":"有房間：祕寶庫（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_2"]}}}
-{"ref":"Has Room: Tunnels","better":1,"matchers":[{"string":"有房間：神殿地道 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_tunnels"]}}}
-{"ref":"Has Room: Vault (Tier 1)","better":1,"matchers":[{"string":"有房間：寶藏庫（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_1"]}}}
-{"ref":"Has Room: Warehouses (Tier 2)","better":1,"matchers":[{"string":"有房間：倉庫間（階級 2） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_2"]}}}
-{"ref":"Has Room: Wealth of the Vaal (Tier 3)","better":1,"matchers":[{"string":"有房間：瓦爾聚寶庫（階級 3） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_3"]}}}
-{"ref":"Has Room: Workshop (Tier 1)","better":1,"matchers":[{"string":"有房間：工作坊（階級 1） "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_1"]}}}
+{"ref":"Has Room: Antechamber","better":0,"matchers":[{"string":"神殿前院"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_antechamber"]},"option":true}}
+{"ref":"Has Room: Apex of Ascension (Tier 3)","better":0,"matchers":[{"string":"祭祀之巔 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_3"]},"option":true}}
+{"ref":"Has Room: Apex of Atzoatl","better":0,"matchers":[{"string":"阿茲瓦特之巔"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_apex"]},"option":true}}
+{"ref":"Has Room: Arena of Valour (Tier 2)","better":0,"matchers":[{"string":"傳說對決 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_2"]},"option":true}}
+{"ref":"Has Room: Armourer's Workshop (Tier 1)","better":0,"matchers":[{"string":"裝甲磨坊 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_1"]},"option":true}}
+{"ref":"Has Room: Armoury (Tier 2)","better":0,"matchers":[{"string":"軍械庫 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_2"]},"option":true}}
+{"ref":"Has Room: Atlas of Worlds (Tier 3)","better":0,"matchers":[{"string":"異界輿圖 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_3"]},"option":true}}
+{"ref":"Has Room: Automaton Lab (Tier 2)","better":0,"matchers":[{"string":"自運研究所 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_2"]},"option":true}}
+{"ref":"Has Room: Banquet Hall","better":0,"matchers":[{"string":"神殿宴會場"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_banquet_hall"]},"option":true}}
+{"ref":"Has Room: Barracks (Tier 2)","better":0,"matchers":[{"string":"軍隊憩所 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_2"]},"option":true}}
+{"ref":"Has Room: Breach Containment Chamber (Tier 2)","better":0,"matchers":[{"string":"裂痕異域室 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_2"]},"option":true}}
+{"ref":"Has Room: Catalyst of Corruption (Tier 2)","better":0,"matchers":[{"string":"腐敗孳生室 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_2"]},"option":true}}
+{"ref":"Has Room: Cellar","better":0,"matchers":[{"string":"神殿地窖"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cellar"]},"option":true}}
+{"ref":"Has Room: Chamber of Iron (Tier 3)","better":0,"matchers":[{"string":"鋼鍛之室 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_armour_room_3"]},"option":true}}
+{"ref":"Has Room: Chasm","better":0,"matchers":[{"string":"神殿裂口"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chasm_room"]},"option":true}}
+{"ref":"Has Room: Cloister","better":0,"matchers":[{"string":"神殿廟"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cloister"]},"option":true}}
+{"ref":"Has Room: Conduit of Lightning (Tier 3)","better":0,"matchers":[{"string":"雷霆導管 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_3"]},"option":true}}
+{"ref":"Has Room: Corruption Chamber (Tier 1)","better":0,"matchers":[{"string":"腐敗之室 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_1"]},"option":true}}
+{"ref":"Has Room: Court of Sealed Death (Tier 3)","better":0,"matchers":[{"string":"封亡院庭 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_3"]},"option":true}}
+{"ref":"Has Room: Crucible of Flame (Tier 3)","better":0,"matchers":[{"string":"烈焰熔爐 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_3"]},"option":true}}
+{"ref":"Has Room: Cultivar Chamber (Tier 2)","better":0,"matchers":[{"string":"培育秘室 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_2"]},"option":true}}
+{"ref":"Has Room: Defense Research Lab (Tier 3)","better":0,"matchers":[{"string":"禦防研究所 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_3"]},"option":true}}
+{"ref":"Has Room: Demolition Lab (Tier 2)","better":0,"matchers":[{"string":"拆除庫 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_2"]},"option":true}}
+{"ref":"Has Room: Department of Thaumaturgy (Tier 2)","better":0,"matchers":[{"string":"魔法部 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_2"]},"option":true}}
+{"ref":"Has Room: Doryani's Institute (Tier 3)","better":0,"matchers":[{"string":"多里亞尼之院 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_3"]},"option":true}}
+{"ref":"Has Room: Engineering Department (Tier 2)","better":0,"matchers":[{"string":"工程部 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_2"]},"option":true}}
+{"ref":"Has Room: Explosives Room (Tier 1)","better":0,"matchers":[{"string":"彈藥庫 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_1"]},"option":true}}
+{"ref":"Has Room: Factory (Tier 3)","better":0,"matchers":[{"string":"瓦爾工廠 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_3"]},"option":true}}
+{"ref":"Has Room: Flame Workshop (Tier 1)","better":0,"matchers":[{"string":"獄炎磨坊 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_1"]},"option":true}}
+{"ref":"Has Room: Gemcutter's Workshop (Tier 1)","better":0,"matchers":[{"string":"刻石磨坊 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_gem_room_1"]},"option":true}}
+{"ref":"Has Room: Glittering Halls (Tier 3)","better":0,"matchers":[{"string":"閃耀聖殿 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_3"]},"option":true}}
+{"ref":"Has Room: Guardhouse (Tier 1)","better":0,"matchers":[{"string":"衛兵房 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_1"]},"option":true}}
+{"ref":"Has Room: Hall of Champions (Tier 3)","better":0,"matchers":[{"string":"冠軍聖殿 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_3"]},"option":true}}
+{"ref":"Has Room: Hall of Heroes (Tier 2)","better":0,"matchers":[{"string":"英雄之殿 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_2"]},"option":true}}
+{"ref":"Has Room: Hall of Legends (Tier 3)","better":0,"matchers":[{"string":"神話之殿 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_3"]},"option":true}}
+{"ref":"Has Room: Hall of Locks (Tier 2)","better":0,"matchers":[{"string":"千鎖殿堂 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_2"]},"option":true}}
+{"ref":"Has Room: Hall of Lords (Tier 2)","better":0,"matchers":[{"string":"權貴殿堂 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_2"]},"option":true}}
+{"ref":"Has Room: Hall of Mettle (Tier 1)","better":0,"matchers":[{"string":"勇氣之殿 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_legion_1"]},"option":true}}
+{"ref":"Has Room: Hall of Offerings (Tier 2)","better":0,"matchers":[{"string":"獻祭殿堂 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_2"]},"option":true}}
+{"ref":"Has Room: Hall of War (Tier 3)","better":0,"matchers":[{"string":"戰爭聖殿 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breeding_room_3"]},"option":true}}
+{"ref":"Has Room: Halls","better":0,"matchers":[{"string":"神殿殿堂"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_halls"]},"option":true}}
+{"ref":"Has Room: Hatchery (Tier 1)","better":0,"matchers":[{"string":"孵化室 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_1"]},"option":true}}
+{"ref":"Has Room: House of the Others (Tier 3)","better":0,"matchers":[{"string":"異者居所 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_3"]},"option":true}}
+{"ref":"Has Room: Hurricane Engine (Tier 2)","better":0,"matchers":[{"string":"颶風引擎室 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_2"]},"option":true}}
+{"ref":"Has Room: Hybridisation Chamber (Tier 3)","better":0,"matchers":[{"string":"異種之域 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_minions_3"]},"option":true}}
+{"ref":"Has Room: Jeweller's Workshop (Tier 1)","better":0,"matchers":[{"string":"寶匠磨坊 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_1"]},"option":true}}
+{"ref":"Has Room: Jewellery Forge (Tier 2)","better":0,"matchers":[{"string":"珠寶冶煉室 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trinket_room_2"]},"option":true}}
+{"ref":"Has Room: Lightning Workshop (Tier 1)","better":0,"matchers":[{"string":"風雷磨坊 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_1"]},"option":true}}
+{"ref":"Has Room: Locus of Corruption (Tier 3)","better":0,"matchers":[{"string":"腐敗之地 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_corruption_room_3"]},"option":true}}
+{"ref":"Has Room: Museum of Artefacts (Tier 3)","better":0,"matchers":[{"string":"文物展館 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_3"]},"option":true}}
+{"ref":"Has Room: Office of Cartography (Tier 2)","better":0,"matchers":[{"string":"製圖研製室 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_2"]},"option":true}}
+{"ref":"Has Room: Omnitect Forge (Tier 2)","better":0,"matchers":[{"string":"全能冶煉室 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_fire_2"]},"option":true}}
+{"ref":"Has Room: Omnitect Reactor Plant (Tier 2)","better":0,"matchers":[{"string":"全能反應廠 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_boss_lightning_2"]},"option":true}}
+{"ref":"Has Room: Passageways","better":0,"matchers":[{"string":"神殿通道"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_passageways"]},"option":true}}
+{"ref":"Has Room: Pits","better":0,"matchers":[{"string":"神殿舊窖"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_the_pits"]},"option":true}}
+{"ref":"Has Room: Poison Garden (Tier 1)","better":0,"matchers":[{"string":"監獄花園 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_1"]},"option":true}}
+{"ref":"Has Room: Pools of Restoration (Tier 1)","better":0,"matchers":[{"string":"治癒之泉 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_1"]},"option":true}}
+{"ref":"Has Room: Royal Meeting Room (Tier 1)","better":0,"matchers":[{"string":"王室宴客室 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_1"]},"option":true}}
+{"ref":"Has Room: Sacrificial Chamber (Tier 1)","better":0,"matchers":[{"string":"獻祭之室 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_sacrifice_room_1"]},"option":true}}
+{"ref":"Has Room: Sadist's Den (Tier 3)","better":0,"matchers":[{"string":"虐狂之巢 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_3"]},"option":true}}
+{"ref":"Has Room: Sanctum of Immortality (Tier 3)","better":0,"matchers":[{"string":"不朽聖殿 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_3"]},"option":true}}
+{"ref":"Has Room: Sanctum of Unity (Tier 2)","better":0,"matchers":[{"string":"統領聖殿 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_2"]},"option":true}}
+{"ref":"Has Room: Sanctum of Vitality (Tier 2)","better":0,"matchers":[{"string":"活力聖殿 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_healing_room_2"]},"option":true}}
+{"ref":"Has Room: Shrine of Empowerment (Tier 1)","better":0,"matchers":[{"string":"恩賜神殿 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_1"]},"option":true}}
+{"ref":"Has Room: Shrine of Unmaking (Tier 3)","better":0,"matchers":[{"string":"毀滅神殿 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_explosives_room_3"]},"option":true}}
+{"ref":"Has Room: Sparring Room (Tier 1)","better":0,"matchers":[{"string":"格鬥場 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_weapon_room_1"]},"option":true}}
+{"ref":"Has Room: Splinter Research Lab (Tier 1)","better":0,"matchers":[{"string":"裂界研究室（階級 1）"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_breach_room_1"]},"option":true}}
+{"ref":"Has Room: Storage Room (Tier 1)","better":0,"matchers":[{"string":"儲物室 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_1"]},"option":true}}
+{"ref":"Has Room: Storm of Corruption (Tier 3)","better":0,"matchers":[{"string":"腐敗風暴 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_3"]},"option":true}}
+{"ref":"Has Room: Strongbox Chamber (Tier 1)","better":0,"matchers":[{"string":"保險箱之殿 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_strongbox_1"]},"option":true}}
+{"ref":"Has Room: Surveyor's Study (Tier 1)","better":0,"matchers":[{"string":"研究書房 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_cartography_room_1"]},"option":true}}
+{"ref":"Has Room: Tempest Generator (Tier 1)","better":0,"matchers":[{"string":"暴雷發電室 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_storm_room_1"]},"option":true}}
+{"ref":"Has Room: Temple Defense Workshop (Tier 2)","better":0,"matchers":[{"string":"神殿禦防室 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_2"]},"option":true}}
+{"ref":"Has Room: Temple Nexus (Tier 3)","better":0,"matchers":[{"string":"死神靈殿 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_empowering_room_3"]},"option":true}}
+{"ref":"Has Room: Throne of Atziri (Tier 3)","better":0,"matchers":[{"string":"阿茲里宴殿 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_queens_chambers_3"]},"option":true}}
+{"ref":"Has Room: Tombs","better":0,"matchers":[{"string":"神殿陵寢"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_tombs"]},"option":true}}
+{"ref":"Has Room: Torment Cells (Tier 1)","better":0,"matchers":[{"string":"磨難牢房 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_1"]},"option":true}}
+{"ref":"Has Room: Torture Cages (Tier 2)","better":0,"matchers":[{"string":"拷刑大牢 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_torment_2"]},"option":true}}
+{"ref":"Has Room: Toxic Grove (Tier 3)","better":0,"matchers":[{"string":"劇毒果園 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_poison_room_3"]},"option":true}}
+{"ref":"Has Room: Trap Workshop (Tier 1)","better":0,"matchers":[{"string":"陷阱磨坊 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_trap_room_1"]},"option":true}}
+{"ref":"Has Room: Treasury (Tier 2)","better":0,"matchers":[{"string":"祕寶庫 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_2"]},"option":true}}
+{"ref":"Has Room: Tunnels","better":0,"matchers":[{"string":"神殿地道"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_tunnels"]},"option":true}}
+{"ref":"Has Room: Vault (Tier 1)","better":0,"matchers":[{"string":"藏寶庫 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_1"]},"option":true}}
+{"ref":"Has Room: Warehouses (Tier 2)","better":0,"matchers":[{"string":"倉庫間 (階級 2)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_chests_2"]},"option":true}}
+{"ref":"Has Room: Wealth of the Vaal (Tier 3)","better":0,"matchers":[{"string":"瓦爾聚寶庫 (階級 3)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_currency_vault_3"]},"option":true}}
+{"ref":"Has Room: Workshop (Tier 1)","better":0,"matchers":[{"string":"工作坊 (階級 1)"}],"trade":{"ids":{"pseudo":["pseudo.pseudo_temple_workshop_1"]},"option":true}}
 {"ref":"Has Shaper Influence","better":1,"matchers":[{"string":"有塑者勢力 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_has_shaper_influence"]}}}
 {"ref":"Has Warlord Influence","better":1,"matchers":[{"string":"有總督軍勢力 "}],"trade":{"ids":{"pseudo":["pseudo.pseudo_has_warlord_influence"]}}}
 {"ref":"Haste","better":0,"mercenary":{"icon":"https://webtw.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvYXVyYXNwZWVkIn1d/4376406372/auraspeed.png"},"matchers":[{"string":"迅捷"}],"trade":{"ids":{"pseudo":["mercenary.skill_52155"]}}}
