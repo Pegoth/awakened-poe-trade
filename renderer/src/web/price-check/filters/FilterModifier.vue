@@ -154,6 +154,7 @@ export default defineComponent({
       props.item.info.refName !== 'Chronicle of Atzoatl' &&
       props.item.info.refName !== 'Mirrored Tablet' &&
       props.item.info.refName !== 'Filled Coffin' &&
+      props.item.info.refName !== 'Viscera' &&
       props.item.category !== ItemCategory.Gem &&
       !(props.item.rarity === ItemRarity.Unique && props.filter.tag === FilterTag.Explicit && (props.filter.roll?.bounds || props.filter.hidden) && !props.grouped)
     )
@@ -471,7 +472,8 @@ export default defineComponent({
 .tag-explicit-veiled,
 .tag-explicit-incursion,
 .tag-explicit-infamous,
-.tag-explicit-essence {
+.tag-explicit-essence,
+.tag-explicit-rareonly {
   display: flex;
   align-items: center;
   @apply -mx-1 pl-0.5 gap-x-0.5 text-gray-600;
@@ -508,6 +510,8 @@ export default defineComponent({
   background-image: url('/images/mercenary.png'); }
 .tag-explicit-essence::before {
   background-image: url('/images/essence.png'); }
+.tag-explicit-rareonly::before {
+  background-image: url('/images/rareonly.png'); }
 
 .tag-corrupted,
 .tag-brick {

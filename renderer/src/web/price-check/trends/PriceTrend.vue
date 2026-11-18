@@ -108,7 +108,8 @@ export default defineComponent({
         const { item } = props
         return (
           !item.info.craftable &&
-          item.info.refName !== 'Mercenary Warrant' // need vertical space
+          item.info.refName !== 'Mercenary Warrant' && // need vertical space
+          item.info.refName !== 'Viscera' // no icons
         )
       })
     }

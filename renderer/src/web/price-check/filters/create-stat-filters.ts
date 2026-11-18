@@ -1,5 +1,5 @@
 import { ParsedItem, ItemRarity, ItemCategory } from '@/parser'
-import { ModifierType, StatCalculated, statSourcesTotal, translateStatWithRoll } from '@/parser/modifiers'
+import { ModifierType, ModifierMechanic, StatCalculated, statSourcesTotal, translateStatWithRoll } from '@/parser/modifiers'
 import { JEWELLERY } from '@/parser/meta'
 import { getPropQuality, QUALITY_CHANGING_ENCHANT } from '@/parser/calc-q20'
 import { percentRoll, percentRollDelta, roundRoll } from './util'
@@ -69,7 +69,9 @@ export function createExactStatFilters (
       : opts.searchStatRange,
     filters: [],
     groups: [],
-    statsByType: statsByType.filter(calc => keepByType.includes(calc.type))
+    statsByType: statsByType.filter(calc =>
+      keepByType.includes(calc.type) ||
+      calc.sources.some(({ modifier }) => modifier.info.mechanic === ModifierMechanic.RareOnly))
   }
 
   filterBasePercentile(ctx)
@@ -265,9 +267,10 @@ export function calculatedStatToFilter (
   }
 
   if (roll && !filter.option) {
-    if (item.rarity === ItemRarity.Magic && (
-      item.isUnmodifiable || item.isCorrupted || item.isMirrored
-    )) {
+    if (
+      (item.rarity === ItemRarity.Magic && (item.isUnmodifiable || item.isCorrupted || item.isMirrored)) ||
+      item.info.refName === 'Viscera'
+    ) {
       percent = 0
     } else if (
       item.rarity === ItemRarity.Unique ||

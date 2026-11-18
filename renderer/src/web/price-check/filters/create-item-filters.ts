@@ -48,7 +48,10 @@ export function createFilters (
     if (!opts.currency) {
       filters.trade.currency = 'chaos_divine'
     }
-    if (item.info.refName !== 'Mercenary Warrant') {
+    if (
+      item.info.refName !== 'Mercenary Warrant' &&
+      item.info.refName !== 'Viscera'
+    ) {
       filters.trade.collapseMerchant = true
     }
   }
@@ -133,6 +136,12 @@ export function createFilters (
         value: item.itemLevel,
         disabled: false
       }
+    }
+    return filters
+  }
+  if (item.info.refName === 'Viscera') {
+    filters.searchExact = {
+      category: item.category
     }
     return filters
   }
@@ -229,7 +238,6 @@ export function createFilters (
         item.category === ItemCategory.ClusterJewel ||
         item.category === ItemCategory.Idol ||
         item.category === ItemCategory.Graft ||
-        item.category === ItemCategory.Viscera ||
         item.category === ItemCategory.HeistBlueprint
       ) {
         disabled = true
@@ -252,6 +260,10 @@ export function createFilters (
       value: item.sentinelCharge,
       disabled: false
     }
+  }
+
+  if (JEWELLERY.has(item.category!) && !item.quality) {
+    filters.notCatalysed = { disabled: false }
   }
 
   if (item.quality && item.quality >= 20 && !JEWELLERY.has(item.category!)) {
@@ -280,7 +292,8 @@ export function createFilters (
 
   if (!item.isUnmodifiable && (item.info.craftable || item.rarity === ItemRarity.Unique)) {
     filters.corrupted = {
-      value: item.isCorrupted,
+      value: Boolean(item.isCorrupted),
+      twice: Boolean(item.isCorrupted?.twice),
       exact: forAdornedJewel
     }
   }
@@ -358,7 +371,6 @@ export function createFilters (
       item.category !== ItemCategory.SanctumRelic &&
       item.category !== ItemCategory.Charm &&
       item.category !== ItemCategory.Idol &&
-      item.category !== ItemCategory.Viscera &&
       item.info.refName !== 'Expedition Logbook'
     ) {
       if (item.category === ItemCategory.ClusterJewel) {
@@ -479,7 +491,8 @@ function createGemFilters (
   }
 
   filters.corrupted = {
-    value: item.isCorrupted
+    value: Boolean(item.isCorrupted),
+    twice: Boolean(item.isCorrupted?.twice)
   }
 
   if (!item.imbuedGem && item.isCorrupted && item.gemLevel! >= 20) {
