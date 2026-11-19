@@ -19,6 +19,7 @@ export interface Stat {
   matchers: StatMatcher[]
   better: StatBetter
   modFamily?: string[]
+  reminderText?: string
   fromAreaMods?: 'yes' | 'ubermap_exclusive' | 'heist_exclusive'
   anointments?: Array<{ roll: number, oils: string }>
   mercenary?: { icon?: string, supports?: string[], tier?: number, canonical?: string, syntheticFamily?: true }
@@ -223,7 +224,8 @@ export interface TranslationDict {
   IMPLICIT_MODIFIER: string
   FRACTURED_PREFIX: string
   FRACTURED_SUFFIX: string
-  RARE_ONLY_AFFIX: string
+  RARE_ONLY_PREFIX: string
+  RARE_ONLY_SUFFIX: string
   UNSCALABLE_VALUE: string
   CORRUPTED_IMPLICIT: string
   MODIFIER_INCREASED: RegExp
